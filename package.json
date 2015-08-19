@@ -1,0 +1,37 @@
+{
+  "name": "chalenge",
+  "version": "1.0.0",
+  "description": "Mi9 Coding Challenge!",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha test",
+    "start": "coffee index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mushdigital20/chalenge.git"
+  },
+  "keywords": [
+    "Mi9",
+    "Coding",
+    "Chanlenge",
+    "Node.js"
+  ],
+  "author": "Pedro Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mushdigital20/chalenge/issues"
+  },
+  "homepage": "https://github.com/mushdigital20/chalenge#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.4",
+    "supertest": "^1.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.3",
+    "jsonlint": "^1.6.2"
+  }
+}
