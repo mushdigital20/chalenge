@@ -6,7 +6,7 @@ var request = require('supertest');
 var should = require('should');
 
 describe('api', function() {
-  var url = 'https://pedro-mi9-chalenge.herokuapp.com';
+  var url = 'http://localhost:3000';
   describe('connection', function() {
     it('should be running', function(done){
       

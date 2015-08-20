@@ -34,14 +34,17 @@ app.post('/', function(request, response) {
   var i, len, ref, selected, show;
   selected = [];
   ref = request.body.payload;
-  for (i = 0, len = ref.length; i < len; i++) {
-    show = ref[i];
-    if (show.drm && parseInt(show.episodeCount) > 0) {
-      selected.push({
-        image: show.image.showImage,
-        slug: show.slug,
-        title: show.title
-      });
+  if(ref)
+  {
+    for (i = 0, len = ref.length; i < len; i++) {
+      show = ref[i];
+      if (show.drm && parseInt(show.episodeCount) > 0) {
+        selected.push({
+          image: show.image.showImage,
+          slug: show.slug,
+          title: show.title
+        });
+      }
     }
   }
   
