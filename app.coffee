@@ -6,7 +6,6 @@
 ###
 express 		= require('express')
 bodyParser		= require('body-parser')
-json 			= require('./json.js')
 
 app = express()
 

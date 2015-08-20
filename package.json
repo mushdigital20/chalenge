@@ -5,7 +5,7 @@
   "main": "index.coffee",
   "scripts": {
     "test": "mocha test",
-    "start": "coffee app.coffee"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,6 @@
     "Chanlenge",
     "Node.js"
   ],
-  "engines": {
-    "node": ">=0.4.7 <0.7.0",
-    "npm": ">=1.0.0"
-  },
   "author": "Pedro Mello",
   "license": "ISC",
   "bugs": {

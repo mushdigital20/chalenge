@@ -14,8 +14,6 @@
 
   bodyParser = require('body-parser');
 
-  json = require('./json.js');
-
   app = express();
 
   app.use(bodyParser.json());
