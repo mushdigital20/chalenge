@@ -1,6 +1,5 @@
 --require should
 --reporter spec
 --ui bdd
---compilers mocha --compilers coffee:coffee-script/register
 --globals config
 --recursive
