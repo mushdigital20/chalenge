@@ -5,7 +5,7 @@
   "main": "index.coffee",
   "scripts": {
     "test": "mocha test",
-    "start": "coffee index.coffee"
+    "start": "coffee app.coffee"
   },
   "repository": {
     "type": "git",
