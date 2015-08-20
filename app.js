@@ -50,7 +50,7 @@ app.post('/', function(request, response) {
   });
 });
 
-app.listen(port, host, function(err) {
+app.listen(port, function(err) {
   console.log("Server started on " + port);
 });
 
